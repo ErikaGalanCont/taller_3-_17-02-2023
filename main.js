@@ -1,8 +1,8 @@
-//Realizar un programa de procesos en el que se almacenen 3 números en 3 variables A, B y C. El diagrama debe decidir cual es el mayor y cual es el menor
+//Realizar un programa que permita escribir los 100 primeros pares.
 
-let A = 7
-let B = 4
-let C = 6
 
-alert("el mayor de los numeros es " + Math. max(A,B,C));
-alert("el menor de los numeros es " + Math. min(A,B,C));
+for (let i=0; i<200; i+=2) {
+    
+    console.log(i);
+    
+}
